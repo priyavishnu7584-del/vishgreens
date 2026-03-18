@@ -1,0 +1,37 @@
+Linux commands 
+1)	sudo –i( Admin ) :- super user do 
+2)	cd  /dir (entering folder ) :- Change directory 
+3)	cd .. (Back from directory)
+4)	mkdir directory_name (create directory) :- Making directory
+5)	vi<filename>  or vim <filename>  :- Create file and saving options varies
+6)	ls or ll (list) :- list the features in list output veries
+7)	netstat –tulpn (Networking ) :- (Network statistics )list the applications which are running and shows the port numbers
+8)	pwd :- (present working directory)
+9)	yum install <package name > -y :- install the packages and the (-y ) denotes the yes command which is flag and it commit the yes operation, yum is package manager, apt-get (ubantu)
+10)	<package name>–version :- view the version 
+11)	df –h :- show available spaces
+12)	ps –ef :- to delete the application which is reduces the system performance which will find through this command and use the kill -9 (aid) 
+13)	kill -9 (AID) :- application id to kill the the application process but the application  is remains 
+14)	top :- displays the cpu list which the application runs  on it 
+15)	rm –rf <file name> :- remove or delete the file
+16)	rmdir <dir name> :- to delete the directory
+17)	vi <filename>  :- to change the file content we need to click insert and change content and to save use :wq! Also to save and exit use (esc :wq)
+18)	esc :set nu  :- used to show the number of the lines in the terminal
+19)	cat :- it is used to view the file but it differ as per scenario.
+20)	ping :- it checks and displays the packets of request are moving or sharing to the other server 
+21)	cd ~(change dir tilt) :- moves directly to the route directory from any folder 
+22)	cd /other directory :- used to move to the other directorys from any folder of the directory
+23)	cp (source) (destionation) :- it copy and paste the file from one directory to another
+24)	uptime :- to display the timeout of server will be running after the reboot
+25)	history :- 	it list the pervious command which are typed
+26)	curl :- it view the link content through the url. If the url content shows the 404 error there is no content in the url. or 200 for the content is their and it is process suceeded
+27)	head –n 100<filename> :- show the first 100 lines 
+28)	tail –n 1000<filename> : - show the last 1000 lines
+29)	> :- used to override
+a.	Example:
+1.	Demo txt (100 lines) if the echo mychanges implemented the demo txt will delete the 100 lines completely and create the random data
+2.	delete the content of demo and insert the data from other txt source 
+30)	>> :-- append. it add the next line of the demo txt in random way
+31)	Service <app_name> start, stop,  restart, status :- after the installataion  we need to initiate through the commands
+32)	Date :- it shows the date of  the server UTC timing only 
+33)	Hostname :- to trace the person of the host
